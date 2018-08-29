@@ -4,6 +4,7 @@ using System.Text;
 
 namespace PetShop
 {
+
     interface IPrinter
     {
         void StartUI();
