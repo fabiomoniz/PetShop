@@ -112,7 +112,7 @@ namespace PetShop
                 Console.WriteLine($"Sold on: {pet.soldDate.ToString("dd/MM/yyyy")}\n\n");
             }
             Console.Write("press enter to continue");
-            Console.Read();
+            Console.ReadLine();
             Console.Clear();
             MainMenu();
         }
@@ -160,7 +160,7 @@ namespace PetShop
             _petService.DeletePet(id);
             Console.Clear();
             Console.WriteLine("Pet has been deleted.  Press enter to continue");
-            Console.Read();
+            Console.ReadLine();
             MainMenu();
         }
 
@@ -195,7 +195,7 @@ namespace PetShop
             _petService.UpdatePet(id, Name, Type, Colour, PreviousOwner, Price, Birthdate);
             Console.Clear();
             Console.WriteLine($"{Name} has been updated. press enter to continue ");
-            Console.Read();
+            Console.ReadLine();
             Console.Clear();
 
             MainMenu();
