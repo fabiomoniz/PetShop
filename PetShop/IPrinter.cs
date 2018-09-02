@@ -8,6 +8,7 @@ namespace PetShop
     interface IPrinter
     {
         void StartUI();
-        
+        void MainMenu();
+        void SearchPet();
     }
 }
